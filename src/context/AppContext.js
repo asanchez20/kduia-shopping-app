@@ -48,7 +48,7 @@ export const AppReducer = (state, action) => {
                 }
             case "CHG_LOCATION":
                 action.type = "DONE";
-                state.location = action.payload
+                state.Location = action.payload;
                 return {
                     ...state
                 }
